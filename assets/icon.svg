@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="CAP DAEU">
+  <rect width="512" height="512" rx="96" fill="#17223b"/>
+  <path d="M352 153c-25-24-58-36-97-36-78 0-137 59-137 139 0 81 57 139 137 139 42 0 76-14 101-41l-40-42c-15 16-34 24-58 24-42 0-72-32-72-80 0-47 30-80 72-80 22 0 40 7 55 21z" fill="#fff"/>
+  <circle cx="372" cy="145" r="31" fill="#e65f4b"/>
+  <path d="M341 359h71v36h-71z" fill="#258a62"/>
+</svg>

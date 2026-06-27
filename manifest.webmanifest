@@ -1,0 +1,42 @@
+{
+  "id": "./",
+  "name": "CAP DAEU - Elias",
+  "short_name": "CAP DAEU",
+  "description": "Copilote personnel de révision pour le DAEU B : plan, agenda, focus, mémorisation et progression.",
+  "lang": "fr",
+  "start_url": "./#/today",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f4f6f9",
+  "theme_color": "#17223b",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Commencer une séance",
+      "short_name": "Focus",
+      "url": "./#/focus",
+      "icons": [{ "src": "./assets/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Voir l'agenda",
+      "short_name": "Agenda",
+      "url": "./#/calendar",
+      "icons": [{ "src": "./assets/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

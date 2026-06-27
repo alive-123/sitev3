@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CAP DAEU</title>
+    <script>
+      const base = location.pathname.includes("/")
+        ? location.pathname.slice(0, location.pathname.lastIndexOf("/") + 1)
+        : "/";
+      location.replace(`${base}#${location.pathname.slice(base.length) || "/today"}${location.search}`);
+    </script>
+  </head>
+  <body></body>
+</html>

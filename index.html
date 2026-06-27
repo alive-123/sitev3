@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#17223b" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="CAP DAEU, le copilote personnel d'Elias pour planifier, travailler et mesurer sa progression jusqu'au DAEU B."
+    />
+    <title>CAP DAEU | Elias</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" href="./assets/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./assets/icon-192.png" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./vendor/chart.umd.min.js" defer></script>
+    <script src="./vendor/lucide.min.js" defer></script>
+    <script src="./js/data.js" defer></script>
+    <script src="./js/core.js" defer></script>
+    <script src="./js/app.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="boot-screen" aria-live="polite">
+        <div class="brand-mark" aria-hidden="true">C</div>
+        <strong>CAP DAEU</strong>
+        <span>Préparation de ton espace...</span>
+      </div>
+    </div>
+    <div id="toast-region" class="toast-region" role="status" aria-live="polite"></div>
+    <div id="modal-root"></div>
+    <noscript>Cette application a besoin de JavaScript pour fonctionner.</noscript>
+  </body>
+</html>
